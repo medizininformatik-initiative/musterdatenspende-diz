@@ -3,7 +3,8 @@
 #example: bash merge-bundles.sh *.json > transaction-bundle.json
 jq -f <(cat << 'EOF'
 # 1. Collect all entries from all input bundles ("slurp" all inputs)
-reduce inputs as $bundle ({
+reduce inputs as $bundle (
+{
     "resourceType": "Bundle",
     "type": "transaction", # Set final bundle type to transaction
     "entry": []
