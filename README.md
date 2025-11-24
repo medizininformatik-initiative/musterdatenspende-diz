@@ -4,7 +4,7 @@
 ## Upload der Musterdaten in einen FHIR (Test-)Server
 Die Submission Verzeichnisse enthalten typisch keine transaction bundles.
 Für den direkten import in einen FHIR Server ist/sind vorab transaction-bundles zu erzeugen.
-Dazu sind die gezippten Ressourcen zu entpacken und zu transofrmieren.
+Dazu sind die gezippten Ressourcen zu entpacken und zu transformieren.
 Ein notwendiges Tool liegt in (bash und  jq basiert).
  
 Beispiel für UKSK:
