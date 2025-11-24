@@ -7,7 +7,7 @@ Für den direkten import in einen FHIR Server ist/sind vorab transaction-bundles
 Dazu sind die gezippten Ressourcen zu entpacken und zu transformieren.
 Ein notwendiges Tool liegt in (bash und  jq basiert).
  
-Beispiel für UKSK:
+Beispiel für UKSH:
 
 ``` 
 unzip UKSH/UKSH-2025-11-11.zip
