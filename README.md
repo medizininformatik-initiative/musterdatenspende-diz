@@ -1,5 +1,9 @@
 # musterdatenspende-diz
  
+Testdaten sind unabdingbar für die IT-Softwareentwicklung. Die hier angebotenen Testdaten spiegeln die technische Heterogenität der Daten verschiedener DIZ für potenzielle Nutzende wider um realistische Anwendungstests insbesondere für verteilte Analysen zu ermöglichen.
+Die Daten sind nicht personenbeziehbar und somit grundsätzlich nicht Gegenstand der DSGVO. Sie werden hier unter der CC-BY-4.0 Lizenz veröffentlicht.
+
+Das Vorgehen wurde von der Taskforce DDT (Datenselektion, Datenbereitstellung und Testdaten) der AG Interoperabilität der Medizininformatik-Initiative entwickelt und im Nationalen Steuerungsgremium (NSG) am 29.11.2024 befürwortet. 
  
 ## Upload der Musterdaten in einen FHIR (Test-)Server
 Die Musterdaten bundles enthalten typisch keine transaction bundles (sondern z.B. "type": "searchset")
